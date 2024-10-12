@@ -1,8 +1,8 @@
 // URL list
 const urls = [
-    "https://example1.com",
-    "https://example2.com",
-    "https://example3.com",
+    "https://alcashzone.com",
+    "https://alcashedu.com",
+    "https://fastdevox.com",
     // Add more URLs here
 ];
 
